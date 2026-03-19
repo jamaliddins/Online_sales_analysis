@@ -1,0 +1,19 @@
+Stakeholder Insights
+
+Revenue & Pricing — Which categories and channels generate the most revenue after discounts, 
+                    and whether discounting is actually driving volume or just eroding margin.
+
+Returns Analysis — Which combination of category, payment method, and shipment provider produces the highest return rate. 
+                    Returns are a direct cost, so reducing them has immediate financial impact.
+
+Channel Performance — Whether Online vs In-store revenue difference is statistically real or just noise — this justifies
+                     or challenges budget allocation between channels.
+
+Shipping Efficiency — Whether ShippingCost varies significantly across ShipmentProviders and WarehouseLocations, 
+                        and whether high shipping cost correlates with higher return rates (customers returning expensive-to-ship items more often).
+
+Order Priority vs Reality — Whether High priority orders actually generate more revenue, 
+                            or whether the priority label is being applied inconsistently — a common operational problem in warehouses.
+
+Discount Strategy — Whether discounts above a certain threshold (e.g. 40%) stop driving incremental quantity, 
+                    which would give your pricing team a clear discount ceiling to work with.
