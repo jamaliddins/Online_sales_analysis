@@ -1,21 +1,25 @@
-Insights from the Online Sales dataset
+Key Insights
+1. Discount vs Quantity Ordered
 
-1. Testing the first hypothesis: "Does a higher discount lead to a higher quantity ordered?"
+No significant positive relationship was found between discount levels and quantity ordered.
+Spearman correlation analysis showed a statistically significant negative relationship (p < 0.05), suggesting that higher discounts do not necessarily drive higher sales volume.
 
-The answer: No. It was proved by the Spearman Correlation test, and it showed a negative correlation value with p < 0.05. 
+2. Sales Channel Performance (Online vs In-store)
 
-2. Testing the second hypothesis: "Do Online orders generate higher Revenue than In-store orders?"
+Revenue does not significantly differ between online and in-store orders.
+The Mann-Whitney U test (p > 0.05) indicates similar revenue distributions across both channels.
 
-The answer: No. It was proved by the Mann-Whitney U test, and it returned p > 0.05. So, it meant the result was not statistically significant. It can be seen easily from their median revenue prices, which are almost equal.
+3. Revenue by Product Category
 
-3. Testing the third hypothesis: "Does Revenue differ significantly across product Categories?" 
+No statistically significant difference in revenue was found across product categories.
+Kruskal-Wallis test results (p > 0.05) suggest relatively uniform revenue generation across categories.
 
-The answer: No. It was proved by the Kruskal-Wallis, where the p-value was higher than 0.05. So, H0 is incorrect. From the pairwise Mann-Whitney combination of values, it can be seen that all categories generated almost the same value.
+4. Revenue Variability by Order Priority
 
-4. Testing the fourth hypothesis: "Is revenue spread (variance) wider for High priority orders than Medium or Low?"
+Revenue variability is consistent across different order priority levels.
+Levene’s test (p > 0.05) indicates no significant difference in variance between High, Medium, and Low priority orders.
 
-The answer: No. It was proved by Levene's test, where the p-value was higher than 0.05. Because the IQR (Interquartile Range) was almost the same range for both Low and Medium.
+5. Returns and Payment Methods
 
-5. Testing the fifth hypothesis: "Is return rate associated with payment method?"
-
-The answer: No. First of all, it was tested by the Chi-Square test, and the p-value was higher than 0.05. Secondly, the table also showed approximately close numbers.
+Return rates are not significantly associated with payment methods.
+Chi-square test results (p > 0.05) suggest independence between payment type and return behavior.
